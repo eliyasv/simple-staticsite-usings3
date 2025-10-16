@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eliyas portfolio</title>
+    <link rel="icon" type="image/png" href="assets/fevicon-ci-cd.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h2>Eliyas Varghese</h2>
+            </div>
+            <button class="hamburger" id="hamburger">
+                &#9776;  <!-- Unicode for the hamburger icon -->
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <!--<li><a href="#blog">Blog</a></li> -->
+               <!-- <li><a href="#contact">Contact</a></li> -->
+            </ul>
+        </nav>
+    </header>
+    
+
+<!-- Home Section.  -->
+<section id="home" class="home-section">
+    <div class="home-card">
+        <div class="home-content">
+            <h1>Turning terminal errors into learning moments.</h1>
+            <p>
+            I'm a DevOps enthusiast with 3.5 years of experience in managing and maintaining servers remotely.
+            </p>
+            <p>
+             My journey started in the world of Remote infrastructure support, where uptime, and performance weren’t just goals — they were non-negotiables.   
+	     These days, I’m navigating the ever-evolving DevOps landscape, sharpening my skills with tools like Docker, Kubernetes, Ansible, and Terraform, while embracing automation, scalability, and cloud-native practices.
+	    </p>
+	    <p>
+            <strong>By day:</strong> I explore how to make systems scale, pipelines run smoothly, and infrastructure stay predictable.<br>
+            <strong>By night:</strong>I tinker with an app project, that may or may not see the day light.<br>
+                It’s part hobby, part therapy, part “what if this actually works?”
+            </p>
+            <p>
+	    While I don’t come from a traditional software engineering background,
+	    I use AI to bridge the gap between ideas and implementation — rapidly prototyping and solving problems in creative, efficient ways.
+	    </p>
+            <p>
+	     Currently vibing between jobs, always learning, and working toward becoming a well-rounded DevOps engineer.
+	    </p>
+        </div>
+    </div>
+</section>
+
+
+
+    
+    <!-- Skill Section -->
+    <section id="skills" class="skills-section">
+        <div class="section-title">
+            <h2>Skills ⚒️</h2>
+	   <p>My Go-To Clicks, CLIs & Configs</p>	
+        </div>
+        <div class="skills-container">
+            <div class="skill-card">
+                <i class="fab fa-aws"></i>
+                <h3>AWS ☁️ 🟧</h3>
+                <div class="skill-info">
+                    <p>Cloud wizardry with EC2, EKS, Route 53 and more.</p>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-docker"></i>
+                <h3>Docker 🐳</h3>
+                <div class="skill-info">
+                    <p> If it runs on my machine, it'll run in yours too. Probably.</p>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-ansible"></i>
+                <h3>Ansible 📦🧙</h3>
+                <div class="skill-info">
+                    <p>Agentless automation magic.</p>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-jenkins"></i>
+                <h3>Jenkins 🤖🔧</h3>
+                <div class="skill-info">
+                    <p>If it builds, tests, and deploys on its own, chances are Jenkins and I had a long chat about it.</p>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-terraform"></i>
+                <h3>Terraform 🏗️🌍</h3>
+                <div class="skill-info">
+                    <p>Brings order to chaos — or at least that's the plan before I hit apply.</p>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-kubernetes"></i>
+                <h3>Kubernetes ☸️</h3>
+                <div class="skill-info">
+                    <p>Just enough to get into trouble, but not enough to be dangerous (yet).</p>
+                </div>
+            </div>
+           
+    </section>
+
+     <section id="extras" class="skills-section">
+        <div class="section-title">
+            <h2>More 🧪</h2>
+         <section id="extras" class="skills-section">
+            <div class="extras-wrapper">
+                <p>I'm most at home in Linux, with hands-on experience in Git, GitHub Actions, GitLab, ArgoCD, Prometheus and Grafana.</p>
+                <p>I write Shell scripts comfortably, and I occasionally wander into the frontend — just enough to get the job done.</p>
+           
+                <p><strong>Goals:</strong></p>
+                <ul>
+                    <li>Create  well-engineered solutions</li>
+                    <li>Minimize breakage, maximize learning — and automate the boring parts</li>
+                    <li>Find a role where I can grow, contribute, and still afford great coffee</li>
+                    <li>Ultimate Goal: Be the person whose infra runs flawlessly — and whose side project finally makes it to production</li>
+                </ul>
+            </div>
+        </div>
+        </section> 
+    </section> 
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="section-title">
+            <h2>My Projects 📦</h2>
+            <p>Some of the DevOps projects I've worked on:</p>
+        </div>
+        <div class="portfolio-container">
+            <div class="project">
+                <h3>github--actionsdemo</h3>
+                <p>A DevOps pipeline for automated deployments using Github actions and Docker.</p>
+                <a href="https://github.com/eliyasv/github--actionsdemo" target="_blank" rel="noopener noreferrer">
+                View on GitHub</a>
+            </div>
+			<div class="project">
+                <h3>MERNapp-kops</h3>
+                <p>A 3-tier application on a Kubernetes cluster using Kops, with LoadBalancer-based service exposure and containerized microservices.</p>
+                <a href="https://github.com/eliyasv/MERNapp-kops" target="_blank" rel="noopener noreferrer">
+                View on GitHub</a>
+	        </div >
+            <div class="project">
+                <h3>EKS-TF-infra</h3>
+                <p>  An IaC project that provisions an EKS cluster designed for scalability, reusability, and DevOps automation best practices.</p>
+                <a href="https://github.com/eliyasv/EKS-TF-infra" target="_blank" rel="noopener noreferrer">
+                View on GitHub</a>
+	        </div >
+		    <div class="project">
+                <h3>EKS-TF-3tier-app</h3>
+                <p>This project implements a robust CI/CD pipeline for a 3-tier application Jenkins, AWS EKS, and Argo CD. It separates backend and frontend workflows and automates every phase from code analysis to GitOps-based deployment.</p>
+                <a href="https://github.com/eliyasv/EKS-TF-3tier-app" target="_blank" rel="noopener noreferrer">
+                View on GitHub</a>
+	        </div >	
+	</div>
+    </section>
+
+
+    <footer class="site-footer">
+		<div class="footer-socials">
+          <a href="https://www.linkedin.com/in/eliyas-varghese97" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-linkedin"></i> Connect on LinkedIn
+          </a>
+       <p>Made by Eliyas, with 💻, ☕, and a generous amount of ChatGPT assistance.</p>
+       
+       </div>
+    </footer>
+
+
+   <!--  <script src="script.js"></script> -->
+</body>
+
+</html>
